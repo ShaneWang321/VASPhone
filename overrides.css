@@ -1,0 +1,62 @@
+.brand-mark {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  object-fit: cover;
+  background: none;
+  box-shadow: 0 5px 18px #0006;
+}
+
+.support-page {
+  max-width: 760px;
+  padding-block: 70px 110px;
+}
+
+.support-page h1 {
+  margin: 10px 0 8px;
+  font-size: clamp(42px, 7vw, 68px);
+  line-height: 1.1;
+  letter-spacing: -.04em;
+}
+
+.support-intro {
+  margin-bottom: 38px;
+  color: var(--muted);
+}
+
+.form-frame {
+  width: 100%;
+  min-height: 1076px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 30px 80px #0005;
+}
+
+.form-frame iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 1076px;
+  border: 0;
+}
+
+@media (max-width: 760px) {
+  .support-page {
+    width: 100%;
+    padding: 45px 0 80px;
+  }
+
+  .support-page > .eyebrow,
+  .support-page > h1,
+  .support-intro {
+    margin-inline: 20px;
+  }
+
+  .form-frame {
+    border-inline: 0;
+    border-radius: 0;
+  }
+}
