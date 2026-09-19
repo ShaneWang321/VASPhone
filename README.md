@@ -4,8 +4,9 @@
 
 ## 發布前檢查
 
-1. App 上架後，將首頁的「App Store 即將推出」按鈕改為正式 App Store 連結。
-2. 由法務或負責人確認 `privacy.html` 的資料保存說明是否符合實際後端政策。
+1. iOS App Store 連結目前為 `https://apps.apple.com/tw/app/vasphone/id6781997788`。
+2. Android APK 由 GitHub Release 提供：`https://github.com/ShaneWang321/VASPhone/releases/download/android-v1.0.0/app-release.apk`。
+3. 由法務或負責人確認 `privacy.html` 的資料保存說明是否符合實際後端政策。
 
 本機預覽可在此資料夾執行：
 
